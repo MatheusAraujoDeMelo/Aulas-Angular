@@ -1,0 +1,10 @@
+<div class="container" [class.boxFavorito]="isFavorito()">
+    <img [src]="urlImagem" [alt]="descricaoImagem" />
+
+    <h3>{{ titulo }}</h3>
+    <p>{{ descricaoProduto }}</p>
+
+    <button (click)="toggleFavorito()">
+        {{ isFavorito() ? 'Desfavoritar' : 'Favoritar'}}
+    </button>
+</div>

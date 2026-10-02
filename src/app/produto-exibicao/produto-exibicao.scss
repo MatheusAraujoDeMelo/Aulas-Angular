@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+    padding: 24px;
+    border: 3px solid green;
+    border-radius: 24px;
+    background-color: rgba(255, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.boxFavorito {
+    border-color: red !important;
+    background-color: rgba(0, 255, 0, 0.3) !important;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 1 !important;
+    transition: all 0.3s ease-in-out;
+    border: solid 1px white;
+    border-radius: 24px;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    line-height: 110%;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 110%;
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+button {
+    width: 222px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    border-radius: 12px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border: solid 1px white;
+    background-color: rgba(0, 255, 0, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+
+.boxFavorito button {
+    background-color: rgba(255, 0, 0, 0.7) !important;
+}
