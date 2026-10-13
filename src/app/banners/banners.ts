@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { Banners as banner } from '../servicos/banners';
+import { Header } from '../componentes/header/header';
 
 @Component({
-  imports: [],
+  imports: [Header],
   selector: 'app-banners',
   styleUrl: './banners.scss',
   templateUrl: './banners.html',

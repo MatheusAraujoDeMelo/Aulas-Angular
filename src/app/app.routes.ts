@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { Noticias } from './noticias/noticias';
+import { Home } from './view/home/home';
 import { Banners } from './banners/banners';
 
 export const routes: Routes = [
-    { path: '', component: Banners },   
-    { path: 'noticias', component: Noticias },
+    { path: '', component: Home },
+    { path: 'banners', component: Banners }
 ];
